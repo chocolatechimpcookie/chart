@@ -1,0 +1,24 @@
+J script
+    -Take input
+    -X var
+    -Y var
+    -Do a series of searches
+
+
+
+
+
+
+
+
+    Html
+Header
+Upload file
+Submit
+
+Graph
+    -class for dot
+    -X and Y axis split
+    -I don't necessarily need to make the graph itself in css, just have a reference of points,
+    for example, I can have a blank canvas. Then make a series of points
+    -There may be jscript libraries to do so though
