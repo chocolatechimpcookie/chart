@@ -1,32 +1,14 @@
 
 
-.btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 3;
-  -moz-border-radius: 3;
-  border-radius: 3px;
-  text-shadow: 2px 1px 1px #666666;
-  font-family: Georgia;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  border: solid #031d2e 1px;
-  text-decoration: none;
+.jumbotron
+{
+  background: #6699CC;
 }
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+
+.container .jumbotron
+{
+    border-radius: 2px;
 }
 
 
@@ -38,10 +20,45 @@
     width: 600px;
     height: 600px;
     border: 2px black solid;
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
+    box-shadow:
+    0px 1px 3px 3px rgba(0, 0, 0, 0.2);
+
 }
 
-/**
+
+.header
+{
+  font: 900 120px/1 'Source Sans Pro', Arial, sans-serif;
+  background: #6699CC;
+  color: white;
+  text-align: center; letter-spacing: -3px;
+  padding-top: 10%;
+}
+
+h1
+{
+
+  text-shadow:
+  0 1px 0 hsl(174,5%,80%),
+  0 2px 0 hsl(174,5%,75%),    
+  0 3px 0 hsl(174,5%,70%), 
+  0 4px 0 hsl(174,5%,65%),
+  0 5px 0 hsl(174,5%,60%),
+/*     white bubble*/
+  0 5px 10px rgba(0,0,0,.1),
+  0 20px 20px rgba(0,0,0,.1),
+  0 30px 30px rgba(0,0,0,.1),
+  0 20px 30px rgba(0,0,0,.1),
+  0 20px 30px rgba(0,0,0,.1);
+/*black shadows*/
+/*horizontal based gos up*/
+}
+/*HSL hue, saturation, lightness*/
+/*hue is color wheel degree, saturation         */
+/*text-shadow: h-shadow v-shadow blur-radius color;*/
+
+ p, label, input, .white, #file, button
 {
     font-family: Ubuntu;
-}*/
+    color: white;
+}

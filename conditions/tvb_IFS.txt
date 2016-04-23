@@ -1,0 +1,451 @@
+if( virtu <= 0.931321)
+{
+	tvbY=tvbY+1 
+}
+
+if( polit <= 0.237842)
+{
+	tvbY=tvbY+1 
+}
+
+if( elect <= 0.560449)
+{
+	tvbY=tvbY+1 
+}
+
+if( high <= 0.112347)
+{
+	tvbY=tvbY+1 
+}
+
+if( famil <= 0.282042)
+{
+	tvbY=tvbY-1 
+}
+
+if( famil > 0.282042)
+{
+	tvbY=tvbY-1 
+}
+
+if( profit > 0.296112)
+{
+	tvbY=tvbY+1 
+}
+
+if( low > 0.812634)
+{
+	tvbY=tvbY+1 
+}
+
+if( girl > 1.456897)
+{
+	tvbY=tvbY+1 
+}
+
+if( mom > 1.244084)
+{
+	tvbY=tvbY+1 
+}
+
+if( tough > 1.421983)
+{
+	tvbY=tvbY+1 
+}
+
+if( ce > 1.502845)
+{
+	tvbY=tvbY+1 
+}
+
+if( wir > 0.79713)
+{
+	tvbY=tvbY+1 
+}
+
+if( warm > 0.617083)
+{
+	tvbY=tvbY+1 
+}
+
+if( sak > 0.705006)
+{
+	tvbY=tvbY+1 
+}
+
+if( outd > 0.64869)
+{
+	tvbY=tvbY+1 
+}
+
+if( row > 0.757359)
+{
+	tvbY=tvbY+1 
+}
+
+if( red > 0.50893)
+{
+	tvbY=tvbY+1 
+}
+
+if( fighter > 0.207306)
+{
+	tvbY=tvbY+1 
+}
+
+if( pac > 0.186537)
+{
+	tvbY=tvbY+1 
+}
+
+if( craft > 0.196271)
+{
+	tvbY=tvbY+1 
+}
+
+if( reinst > 0.196271)
+{
+	tvbY=tvbY+1 
+}
+
+if( bl > 1.171268)
+{
+	tvbY=tvbY+1 
+}
+
+if( parent > 0.749417)
+{
+	tvbY=tvbY-1 
+}
+
+if( baltimor > 0.481838)
+{
+	tvbY=tvbY+1 
+}
+
+if( incentiv > 0.186537)
+{
+	tvbY=tvbY+1 
+}
+
+if( 1990 > 0.162761)
+{
+	tvbY=tvbY+1 
+}
+
+if( val > 0.355658)
+{
+	tvbY=tvbY+1 
+}
+
+if( refus > 0.338005)
+{
+	tvbY=tvbY+1 
+}
+
+if( wom > 1.004544)
+{
+	tvbY=tvbY+1 
+}
+
+if( innov > 1.280496)
+{
+	tvbY=tvbY+1 
+}
+
+if( opportun > 0.766685)
+{
+	tvbY=tvbY+1 
+}
+
+if( ship > 0.275442)
+{
+	tvbY=tvbY+1 
+}
+
+if( florid > 0.394617)
+{
+	tvbY=tvbY+1 
+}
+
+if( brother > 0.237779)
+{
+	tvbY=tvbY+1 
+}
+
+if( comp > 0.989489)
+{
+	tvbY=tvbY+1 
+}
+
+if( gradu > 0.951273)
+{
+	tvbY=tvbY+1 
+}
+
+if( growth > 1.099483)
+{
+	tvbY=tvbY-1 
+}
+
+if( colleg > 0.931256)
+{
+	tvbY=tvbY-1 
+}
+
+if( ga > 0.150022)
+{
+	tvbY=tvbY+1 
+}
+
+if( chanc > 1.093799)
+{
+	tvbY=tvbY+1 
+}
+
+if( ri > 0.892522)
+{
+	tvbY=tvbY+1 
+}
+
+if( stronger > 0.937671)
+{
+	tvbY=tvbY+1 
+}
+
+if( team > 0.447079)
+{
+	tvbY=tvbY+1 
+}
+
+if( hit > 0.837779)
+{
+	tvbY=tvbY+1 
+}
+
+if( greatest > 0.839726)
+{
+	tvbY=tvbY+1 
+}
+
+if( built > 0.217989)
+{
+	tvbY=tvbY+1 
+}
+
+if( mad > 0.630417)
+{
+	tvbY=tvbY-1 
+}
+
+if( dream > 1.043446)
+{
+	tvbY=tvbY-1 
+}
+
+if( rebuild > 0.133976)
+{
+	tvbY=tvbY+1 
+}
+
+if( technolog > 0.660041)
+{
+	tvbY=tvbY-1 
+}
+
+if( child > 0.084326)
+{
+	tvbY=tvbY+1 
+}
+
+if( born > 0.413037)
+{
+	tvbY=tvbY+1 
+}
+
+if( gradu <= 0.098862)
+{
+	tvbY=tvbY-1 
+}
+
+if( gradu > 0.098862)
+{
+	tvbY=tvbY+1 
+}
+
+if( wait > 0.267579)
+{
+	tvbY=tvbY+1 
+}
+
+if( growth > 0.158318)
+{
+	tvbY=tvbY-1 
+}
+
+if( born > 0.413037)
+{
+	tvbY=tvbY+1 
+}
+
+if( innov > 0.250661)
+{
+	tvbY=tvbY+1 
+}
+
+if( matter > 0.445616)
+{
+	tvbY=tvbY+1 
+}
+
+if( low > 0.179675)
+{
+	tvbY=tvbY+1 
+}
+
+if( chanc > 0.189707)
+{
+	tvbY=tvbY+1 
+}
+
+if( parent > 0.253473)
+{
+	tvbY=tvbY+1 
+}
+
+if( god > 0.130614)
+{
+	tvbY=tvbY+1 
+}
+
+if( colleg > 0.097032)
+{
+	tvbY=tvbY+1 
+}
+
+if( famil > 0.560538)
+{
+	tvbY=tvbY+1 
+}
+
+if( bl > 0.118789)
+{
+	tvbY=tvbY+1 
+}
+
+if( ri > 0.146887)
+{
+	tvbY=tvbY+1 
+}
+
+if( mon > 0.121608)
+{
+	tvbY=tvbY+1 
+}
+
+if( mad > 0.128315)
+{
+	tvbY=tvbY+1 
+}
+
+if( opportun > 0.092978)
+{
+	tvbY=tvbY-1 
+}
+
+if( wait <= 0.655097)
+{
+	tvbY=tvbY-1 
+}
+
+if( wait > 0.655097)
+{
+	tvbY=tvbY-1 
+}
+
+if( gradu > 0.098862)
+{
+	tvbY=tvbY-1 
+}
+
+if( born > 0.413037)
+{
+	tvbY=tvbY-1 
+}
+
+if( innov > 0.250661)
+{
+	tvbY=tvbY-1 
+}
+
+if( matter > 0.445616)
+{
+	tvbY=tvbY-1 
+}
+
+if( chanc > 0.762968)
+{
+	tvbY=tvbY+1 
+}
+
+if( low > 0.179675)
+{
+	tvbY=tvbY+1 
+}
+
+if( parent > 0.253473)
+{
+	tvbY=tvbY+1 
+}
+
+if( colleg > 0.368537)
+{
+	tvbY=tvbY+1 
+}
+
+if( mad > 0.434054)
+{
+	tvbY=tvbY+1 
+}
+
+if( god > 0.130614)
+{
+	tvbY=tvbY+1 
+}
+
+if( famil > 0.560538)
+{
+	tvbY=tvbY+1 
+}
+
+if( bl > 0.118789)
+{
+	tvbY=tvbY+1 
+}
+
+if( opportun > 0.092978)
+{
+	tvbY=tvbY+1 
+}
+
+if( trillion > 1.593644)
+{
+	tvbY=tvbY-1 
+}
+
+if( slav > 0.485171)
+{
+	tvbY=tvbY-1 
+}
+
+if( establishm > 0)
+{
+	tvbY=tvbY-1 
+}
+
+if( abus > 0.349027)
+{
+	tvbY=tvbY-1 
+}
+
+	 
