@@ -1,3 +1,12 @@
+// axis_total_cond = all the conditions overall in the axis graph,
+	//each time there is a condition +1, for normalization. for graph Axis B
+// x_econ_cond and y_auth are for the positions themselves,
+	//this determines the position on x and y axis, both graphs share this variable
+// total_x_cond is for normalization as well, but it normalizes by a specific axis
+	//for graph Axis B
+
+
+
 
 if ( calc_percentage("fuel", total_words) <= 0.753099)
 {
