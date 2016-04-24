@@ -9,19 +9,21 @@
 .container .jumbotron
 {
     border-radius: 2px;
+        box-shadow:
+    0px 1px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 
-#graph
+.graph
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 600px;
     height: 600px;
-    border: 2px black solid;
-    box-shadow:
-    0px 1px 3px 3px rgba(0, 0, 0, 0.2);
+    /*border: 2px black solid;*/
+    /*box-shadow:*/
+    /*0px 1px 3px 3px rgba(0, 0, 0, 0.2);*/
 
 }
 
@@ -57,7 +59,10 @@ h1
 /*hue is color wheel degree, saturation         */
 /*text-shadow: h-shadow v-shadow blur-radius color;*/
 
- p, label, input, .white, #file, button
+
+
+
+ p, label, input, .white, #file, button, h2, ol, li
 {
     font-family: Ubuntu;
     color: white;

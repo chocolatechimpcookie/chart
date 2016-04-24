@@ -112,15 +112,55 @@ J script
             var word total
             var political word total
             
+            
+1 = ffax=ffax+1, ffay=ffay+1
+2 = ffax=ffax-1, ffay=ffay+1
+3 = ffax=ffax-1, ffay=ffay-1
+4 = ffax=ffax+1, ffay=ffay-1
+*/
+            
+            
+            
             1= right auth x+1, y+1
             2= left auth  x-1, y+1
             3= left lib   x-1, y-1
             4= right lib  x+1, y-1
             
-            x+1 = right, x-1 = left
-            y+1 = auth, y-1 = lib
+            x+1 = right
+            x-1 = left
+            y+1 = auth
+            y-1 = lib
+            
+
+            Do I want to be dealing with negatives here?
             
             
-            tvbY - 1
-            tvbY + 1
             
+    What does x-n do?
+    
+    
+    How am I going to get percentages out of every condition?
+    
+    total words
+    
+    ((Allwordsstartw_X)/total) > percentage
+    
+    I don't wanna add all these manually. There might be some regex
+    
+    I can make a function:
+     if ( function(allwordsstartw_x, totalwords) > percentage
+        
+        
+        function(wordsstart, total)
+        {
+         in_doc
+        
+        
+        }
+        
+        
+    I can ctrl replace > with , total)>
+    then
+    
+    ctrl h, if( function(
+    

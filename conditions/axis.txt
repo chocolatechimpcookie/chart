@@ -1,0 +1,890 @@
+
+if ( calc_percentage("fuel", total_words) <= 0.753099)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+if ( calc_percentage("gu", total_words) <= 0.505881)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+if ( calc_percentage("glob", total_words) <= 0.122952)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+if ( calc_percentage("publ", total_words) <= 0.336472)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("democr", total_words) <= 0.131396)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("wal", total_words) <= 0.21543)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("health", total_words) <= 0.279524)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("long", total_words) <= 0.133316)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("unit", total_words) <= 0.100087)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("unit", total_words) > 0.100087)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("except", total_words) > 0.685163)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("long", total_words) > 0.665871)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("not", total_words) > 0.806223)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("think", total_words) > 0.5724)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("spen", total_words) > 0.472806)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("think", total_words) <= 0.281206)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("think", total_words) > 0.281206)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("obam", total_words) > 0.994639)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("gover", total_words) > 0.457643)
+{
+	x_econ_cond = x_econ_cond+1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond + 1;
+} 
+
+
+if ( calc_percentage("poison", total_words) > 0)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+} 
+
+
+if ( calc_percentage("envir", total_words) > 1.149202)
+{
+	x_econ_cond = x_econ_cond-1;
+	total_x_cond = total_x_cond + 1;
+	axis_total_cond = axis_total_cond +1;
+}
+
+if ( calc_percentage("virtu", total_words) <= 0.931321)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("polit", total_words) <= 0.237842)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("elect", total_words) <= 0.560449)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("high", total_words) <= 0.112347)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("famil", total_words) <= 0.282042)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("famil", total_words) > 0.282042)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("profit", total_words) > 0.296112)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("low", total_words) > 0.812634)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("girl", total_words) > 1.456897)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("mom", total_words) > 1.244084)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("tough", total_words) > 1.421983)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("ce", total_words) > 1.502845)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("wir", total_words) > 0.79713)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("warm", total_words) > 0.617083)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("sak", total_words) > 0.705006)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("outd", total_words) > 0.64869)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("row", total_words) > 0.757359)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("red", total_words) > 0.50893)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("fighter", total_words) > 0.207306)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("pac", total_words) > 0.186537)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("craft", total_words) > 0.196271)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("reinst", total_words) > 0.196271)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("bl", total_words) > 1.171268)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("parent", total_words) > 0.749417)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("baltimor", total_words) > 0.481838)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("incentiv", total_words) > 0.186537)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("1990", total_words) > 0.162761)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("val", total_words) > 0.355658)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("refus", total_words) > 0.338005)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("wom", total_words) > 1.004544)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("innov", total_words) > 1.280496)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("opportun", total_words) > 0.766685)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("ship", total_words) > 0.275442)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("florid", total_words) > 0.394617)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("brother", total_words) > 0.237779)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("comp", total_words) > 0.989489)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("gradu", total_words) > 0.951273)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("growth", total_words) > 1.099483)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("colleg", total_words) > 0.931256)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("ga", total_words) > 0.150022)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("chanc", total_words) > 1.093799)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("ri", total_words) > 0.892522)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("stronger", total_words) > 0.937671)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("team", total_words) > 0.447079)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("hit", total_words) > 0.837779)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("greatest", total_words) > 0.839726)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("built", total_words) > 0.217989)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("mad", total_words) > 0.630417)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("dream", total_words) > 1.043446)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("rebuild", total_words) > 0.133976)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("technolog", total_words) > 0.660041)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("child", total_words) > 0.084326)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("born", total_words) > 0.413037)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("gradu", total_words) <= 0.098862)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("gradu", total_words) > 0.098862)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("wait", total_words) > 0.267579)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("growth", total_words) > 0.158318)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("born", total_words) > 0.413037)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("innov", total_words) > 0.250661)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("matter", total_words) > 0.445616)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("low", total_words) > 0.179675)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("chanc", total_words) > 0.189707)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("parent", total_words) > 0.253473)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("god", total_words) > 0.130614)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("colleg", total_words) > 0.097032)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("famil", total_words) > 0.560538)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("bl", total_words) > 0.118789)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("ri", total_words) > 0.146887)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("mon", total_words) > 0.121608)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("mad", total_words) > 0.128315)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("opportun", total_words) > 0.092978)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("wait", total_words) <= 0.655097)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("wait", total_words) > 0.655097)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("gradu", total_words) > 0.098862)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("born", total_words) > 0.413037)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("innov", total_words) > 0.250661)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("matter", total_words) > 0.445616)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("chanc", total_words) > 0.762968)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("low", total_words) > 0.179675)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("parent", total_words) > 0.253473)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("colleg", total_words) > 0.368537)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("mad", total_words) > 0.434054)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("god", total_words) > 0.130614)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("famil", total_words) > 0.560538)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("bl", total_words) > 0.118789)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("opportun", total_words) > 0.092978)
+{
+	y_auth_cond = y_auth_cond+1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond + 1; 
+}
+
+
+if ( calc_percentage("trillion", total_words) > 1.593644)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("slav", total_words) > 0.485171)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("establishm", total_words) > 0)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+if ( calc_percentage("abus", total_words) > 0.349027)
+{
+	y_auth_cond = y_auth_cond-1;
+	total_y_cond = total_y_cond + 1;
+	axis_total_cond = axis_total_cond +1; 
+}
+
+
+
+
+function calc_percentage
+
+
