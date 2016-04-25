@@ -58,63 +58,15 @@
 
 
 
-//percent algorithm also has to account for 0, division by zero
-//percentage correct
-//three sets of these are needed
-
-var x_percent = 0;
-var y_percent = 0;
-
-if (x_percent > 0)
-{
-    var x_1 = (x_percent * 139) + 140;
-//    right
-}
-
-if (x_percent === 0)
-{
-    var x_1 = 140;
-}
-
-else
-{
-    x_percent = x_percent * -1;
-    var x_1 = 140 + (x_percent * 140);
-//    left
-// Greater the left percentage, the less the number
-}
-
-if (y_percent > 0)
-{
-    var y_1 = 71 - (y_percent * 71);
-//    top
-// most authoritarian is 0, center is 71
-}
-
-if (y_percent === 0)
-{
-    var y_1 = 71;
-    //mid y
-}
-
-else
-{
-    var y_1 = 71 + (y_percent * 69);
-//    libertar
-//  
-}
-
-generate_graphs(x_1, y_1, x_1, y_1, x_1, y_1);
 
 
-//generate_graphs(0, 0, 0, 0, 0, 0);
-//this should be upper left
+generate_graphs(
+                gen_x(-0.5), gen_y(-0.5),
+                gen_x(1), gen_y(1),
+                gen_x(0.5), gen_y(0.5));
 
-//generate_graphs(140, 71, 140, 71, 140, 71);
-//this should be center
 
-//generate_graphs(280, 141, 280, 141, 280, 141);
-//bottom rightmost
+
 
 
 //function must take phrase starting letters, total words and corpus list to check and return a percentage
@@ -126,7 +78,65 @@ function calc_percentage(phrase,totl_words,corp)
     
 }
         
-            
+        
+function gen_x(x_percent)
+{
+    //percent algorithm also has to account for 0, division by zero
+    //percentage correct
+    //three sets of these are needed
+    
+    
+    if (x_percent > 0)
+    {
+        var x = (x_percent * 139) + 140;
+    //    right
+    }
+    
+    if (x_percent === 0)
+    {
+        var x = 140;
+    }
+    
+    else
+    {
+        x_percent = x_percent * -1;
+        var x = 140 + (x_percent * 140);
+    //    left
+    // Greater the left percentage, the less the number
+    }
+    
+    return x;    
+}
+
+
+function gen_y(y_percent)
+{
+    if (y_percent > 0)
+    {
+        var y = 71 - (y_percent * 71);
+    //    top
+    // most authoritarian is 0, center is 71
+    }
+    
+    if (y_percent === 0)
+    {
+        var y = 71;
+        //mid y
+    }
+    
+    else
+    {
+        var y = 71 + (y_percent * 70);
+    //    libertar
+    //  
+    }
+    return y;
+}
+
+
+
+
+
 function generate_graphs(x1, y1, x2, y2, x3, y3)
 {
     var canvas = document.getElementById("graph1");
