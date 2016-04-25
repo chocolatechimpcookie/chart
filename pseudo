@@ -1,3 +1,46 @@
+Doing percentages translation
+
+Graph coordinates:
+
+x: 0, 140, 280
+y: 0, 71, 141
+
+X = left most, center, right most
+y= top most, center, bottom most
+
+
+
+In algorithms:
+            x+1 = right
+            x-1 = left
+            y+1 = auth
+            y-1 = lib
+
+            x = positive = right
+            x = negative = left
+            y = negative = lib
+            y = positive = auth
+
+So the percentage will depend on if it is negative or positive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 J script
     -Take input
     -X var
@@ -34,27 +77,7 @@ J script
 //            arc placement
 
 
-//          create x and y coordinates
 
-          //X 0, center = 145, 289 left-right     
-          //Y 0, center = 72.5-73, 145 top-bottom    
-          // Points system, and it needs to stay within the 100 percent range
-          //How do I make sure it stays within the range?
-          //Need to turn any number into a range of 1
-          // But I'd also need a standard or extremity/non extremity
-          //larger numbers matter
-          //I guess use corpus size? That doesn't really put someone in place of extremity
-          //I guess what matters is HOW far they are from the 0.
-          
-          //left and right:
-            //if x = 0, then x = 145
-            // if greater than/ less than:
-                // + or - 145
-            //top and down:
-            //if y = 0, then y = 73
-            // if greater than/ less than;
-                // + or - 73
-            
             
             //This will put people in a quadrant moreso than an actual place
             //Because the basis is whether they are in the center

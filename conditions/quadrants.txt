@@ -1,365 +1,365 @@
-if ( fed <= 1.703037) 
+if (calc_percentage("fed", total_words, corpus) <= 1.703037) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( feder <= 1.243849) 
+if (calc_percentage("feder", total_words, corpus) <= 1.243849) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( governm <= 0.571843) 
+if (calc_percentage("governm", total_words, corpus) <= 0.571843) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( spen <= 0.50991) 
+if (calc_percentage("spen", total_words, corpus) <= 0.50991) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( spen > 0.50991) 
+if (calc_percentage("spen", total_words, corpus) > 0.50991) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( environm > 0.204987) 
+if (calc_percentage("environm", total_words, corpus) > 0.204987) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( ma > 0.252257) 
+if (calc_percentage("ma", total_words, corpus) > 0.252257) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( bad > 0.244377) 
+if (calc_percentage("bad", total_words, corpus) > 0.244377) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( born > 0.417647) 
+if (calc_percentage("born", total_words, corpus) > 0.417647) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( rac > 0.361492) 
+if (calc_percentage("rac", total_words, corpus) > 0.361492) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( clean > 0.184437) 
+if (calc_percentage("clean", total_words, corpus) > 0.184437) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( lot > 0.809956) 
+if (calc_percentage("lot", total_words, corpus) > 0.809956) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( quit > 0.28268) 
+if (calc_percentage("quit", total_words, corpus) > 0.28268) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( growth > 1.703719) 
+if (calc_percentage("growth", total_words, corpus) > 1.703719) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( dol > 0.172751) 
+if (calc_percentage("dol", total_words, corpus) > 0.172751) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( gu > 0.509629) 
+if (calc_percentage("gu", total_words, corpus) > 0.509629) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( enorm > 0.425139) 
+if (calc_percentage("enorm", total_words, corpus) > 0.425139) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( itl > 0.788765) 
+if (calc_percentage("itl", total_words, corpus) > 0.788765) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( prayer > 0.372178) 
+if (calc_percentage("prayer", total_words, corpus) > 0.372178) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( tr > 0.269453) 
+if (calc_percentage("tr", total_words, corpus) > 0.269453) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( enterpr > 0.804586) 
+if (calc_percentage("enterpr", total_words, corpus) > 0.804586) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( reason > 0.598165) 
+if (calc_percentage("reason", total_words, corpus) > 0.598165) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( girl > 0.257647) 
+if (calc_percentage("girl", total_words, corpus) > 0.257647) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( smart > 0.228455) 
+if (calc_percentage("smart", total_words, corpus) > 0.228455) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( apolog > 0.590565) 
+if (calc_percentage("apolog", total_words, corpus) > 0.590565) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( dynam > 0.504058) 
+if (calc_percentage("dynam", total_words, corpus) > 0.504058) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( middl > 0.829508) 
+if (calc_percentage("middl", total_words, corpus) > 0.829508) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( democr > 0.129739) 
+if (calc_percentage("democr", total_words, corpus) > 0.129739) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( bl > 0.997438) 
+if (calc_percentage("bl", total_words, corpus) > 0.997438) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( florid > 0.426403) 
+if (calc_percentage("florid", total_words, corpus) > 0.426403) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( allow > 0.229542) 
+if (calc_percentage("allow", total_words, corpus) > 0.229542) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( obamacar > 0.656365) 
+if (calc_percentage("obamacar", total_words, corpus) > 0.656365) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( dad > 0.212081) 
+if (calc_percentage("dad", total_words, corpus) > 0.212081) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( er > 0.225399) 
+if (calc_percentage("er", total_words, corpus) > 0.225399) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( human > 0.09691) 
+if (calc_percentage("human", total_words, corpus) > 0.09691) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( chanc > 0.464182) 
+if (calc_percentage("chanc", total_words, corpus) > 0.464182) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( innov > 0.256173) 
+if (calc_percentage("innov", total_words, corpus) > 0.256173) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( faith > 0.204603) 
+if (calc_percentage("faith", total_words, corpus) > 0.204603) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( worker > 0.181359) 
+if (calc_percentage("worker", total_words, corpus) > 0.181359) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( energ > 0.2481) 
+if (calc_percentage("energ", total_words, corpus) > 0.2481) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( god > 0.133486) 
+if (calc_percentage("god", total_words, corpus) > 0.133486) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( mad > 0.171552) 
+if (calc_percentage("mad", total_words, corpus) > 0.171552) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( maryland > 0) 
+if (calc_percentage("maryland", total_words, corpus) > 0) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( 1990 > 0) 
+if (calc_percentage("1990", total_words, corpus) > 0) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( clean > 1.273548) 
+if (calc_percentage("clean", total_words, corpus) > 1.273548) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( warm > 0.624291) 
+if (calc_percentage("warm", total_words, corpus) > 0.624291) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( warm <= 0.624291) 
+if (calc_percentage("warm", total_words, corpus) <= 0.624291) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;	quad_y=quad_y-1;
 }
 
-if ( stronger > 1.598825) 
+if (calc_percentage("stronger", total_words, corpus) > 1.598825) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( 1990 > 0.165737) 
+if (calc_percentage("1990", total_words, corpus) > 0.165737) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( renew > 1.144967) 
+if (calc_percentage("renew", total_words, corpus) > 1.144967) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( dynam > 0.504058) 
+if (calc_percentage("dynam", total_words, corpus) > 0.504058) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( clean > 1.315122) 
+if (calc_percentage("clean", total_words, corpus) > 1.315122) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x-1;	quad_y=quad_y+1; 
 }
 
-if ( florid > 0.828234) 
+if (calc_percentage("florid", total_words, corpus) > 0.828234) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
 	quad_y=quad_y+1; 
 }
 
-if ( faith > 1.070745) 
+if (calc_percentage("faith", total_words, corpus) > 1.070745) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;
@@ -369,7 +369,7 @@ if ( faith > 1.070745)
 
 
 
-if ( marijuan > 1.031098) 
+if (calc_percentage("marijuan", total_words, corpus) > 1.031098) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;	quad_y=quad_y-1;
@@ -377,13 +377,13 @@ if ( marijuan > 1.031098)
 
 
 
-if ( tr > 1.377043) 
+if (calc_percentage("tr", total_words, corpus) > 1.377043) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;	quad_y=quad_y-1;
 }
 
-if ( reserv > 1.609765) 
+if (calc_percentage("reserv", total_words, corpus) > 1.609765) 
 {
 	quad_total_cond = quad_total_cond + 1;
 	quad_x = quad_x+1;	quad_y=quad_y-1;
