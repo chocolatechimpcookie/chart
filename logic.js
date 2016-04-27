@@ -1,11 +1,4 @@
-
-
-
-
-
 document.getElementById("start").onclick = function() {runProgram()};
-
-
 
 function runProgram()
 {
@@ -16,13 +9,9 @@ function runProgram()
     if (window.File && window.FileReader && window.FileList && window.Blob)
     {
         
-    //    Need to grab file, turn into data structure, count words
         var upload_txt = document.getElementById('input');
-        //var status = document.getElementById('status');
         var read = new FileReader();
         var new_string = read.readAsText(upload_txt.files[0]);
-        //console.log(new_string);
-        
         
         read.onload = function(e)
         {
@@ -65,7 +54,7 @@ function comparisons(the_file)
 //                gen_x(0.5), gen_y(0.5)
 //                );
 
-//regex case insensitive, start with word, return number of all matches 
+
 
 
 
