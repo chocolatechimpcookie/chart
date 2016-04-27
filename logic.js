@@ -1,59 +1,51 @@
+document.getElementById("start").onclick = function() {runProgram()};
 
 
 
-//document.getElementById("start").onclick = function() {runProgram()};
-//
-//
-//
-//function runProgram()
-//{
-//    
-//    
-//    
-//    
-//    if (window.File && window.FileReader && window.FileList && window.Blob)
-//    {
-//        
-//    //    Need to grab file, turn into data structure, count words
-//        var upload_txt = document.getElementById('input');
-//        var status = document.getElementById('status')
-//        if (typeof window.FileReader === 'txt')
-//        {
-//            status.innerHTML="Correct filetype has been uploaded.";
-//        }
-//        else
-//        {
-//            status.innerHTML="Incorrect";
-//        }
-//       
-//       
-//       
-//       
-//       
-//       
-//       
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//
-//    
-//    }
-//
-//    else
-//    {
-//        alert("File APIs are not supported on this browser and the application will now halt.")
-//    }
-//    
-//    
-//}
+function runProgram()
+{
+    
+    
+    
+    
+    if (window.File && window.FileReader && window.FileList && window.Blob)
+    {
+        
+    //    Need to grab file, turn into data structure, count words
+        var upload_txt = document.getElementById('input');
+        var read = new FileReader();
+        var txt_string = read.readAsText(upload_txt.files[0]);
+        read.result;
+        alert(txt_string);
+        
+//       readastext -> read.result (?)
+       
+       
+       
+       
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    
+    }
+
+    else
+    {
+        alert("File APIs are not supported on this browser and the application will now halt.")
+    }
+    
+    
+}
 
 
 
