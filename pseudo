@@ -1,3 +1,21 @@
+1) upload file
+2) File is turned into an array (Or something) and passed. Ignore blank spaces?
+3) Word count, ignore blank spaces
+4) do conditions, use calc_percentage function
+					1) searches words that match the first few letters
+					within the corpus supplied
+					2) # all matches found/ total words
+
+Turn into a string and use regex.
+					
+Question is if I should use an array, or string or what
+
+If it reads it as a string, will it count white space?
+
+
+
+
+
 Doing percentages translation
 
 Graph coordinates:

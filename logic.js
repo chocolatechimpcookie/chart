@@ -1,74 +1,71 @@
 
 
 
-//document.getElementById("start").onclick = function() {runProgram()};
-//
-//
-//
-//function runProgram()
-//{
-//    
-//    
-//    
-//    
-//    if (window.File && window.FileReader && window.FileList && window.Blob)
-//    {
-//        
-//    //    Need to grab file, turn into data structure, count words
-//        var upload_txt = document.getElementById('input');
-//        var status = document.getElementById('status')
-//        if (typeof window.FileReader === 'txt')
-//        {
-//            status.innerHTML="Correct filetype has been uploaded.";
-//        }
-//        else
-//        {
-//            status.innerHTML="Incorrect";
-//        }
-//       
-//       
-//       
-//       
-//       
-//       
-//       
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//        
-//
-//    
-//    }
-//
-//    else
-//    {
-//        alert("File APIs are not supported on this browser and the application will now halt.")
-//    }
-//    
-//    
-//}
+
+
+document.getElementById("start").onclick = function() {runProgram()};
 
 
 
+function runProgram()
+{
+    
+    
+    
+    
+    if (window.File && window.FileReader && window.FileList && window.Blob)
+    {
+        
+    //    Need to grab file, turn into data structure, count words
+        var upload_txt = document.getElementById('input');
+        //var status = document.getElementById('status');
+        var read = new FileReader();
+        var new_string = read.readAsText(upload_txt.files[0]);
+        //console.log(new_string);
+        
+        
+        read.onload = function(e)
+        {
+            new_string = e.target.result;
+            comparisons(new_string);
+        }
+        
+    }
+
+    else
+    {
+        alert("File APIs are not supported on this browser and the application will now halt.")
+    }
+    
+    
+}
+
+
+function comparisons(the_file)
+{
+    console.log(the_file);
+    var wordcount = /\s+/gi;
+    var wordcount = the_file.trim().replace(wordcount, ' ').split(' ').length;
+// the reg ex looks for all the white space
+//    .trim() takes out all excess white space (not regular spaces),
+//replace() parameter whitespaces with parameter two
+//split takes all the white spaces and turns it into a string with ""
+//length is the size of the string
+    console.log("Word count" + wordcount);
+    calc_percentage("pi", wordcount, the_file);
+}
 
 
 //x left- right+
 //y lib - top +
 
-generate_graphs(
-                gen_x(0.7), gen_y(0.7),
-                gen_x(1), gen_y(1),
-                gen_x(0.5), gen_y(0.5)
-                );
+//generate_graphs(
+//                gen_x(0.7), gen_y(0.7),
+//                gen_x(1), gen_y(1),
+//                gen_x(0.5), gen_y(0.5)
+//                );
 
-
+//regex case insensitive, start with word, return number of all matches 
 
 
 
@@ -76,9 +73,21 @@ generate_graphs(
 // It has 17 words, 12 start with pi, 5 do not.
 // Therefore the outcome must be 70.5%
 
-function calc_percentage(phrase,totl_words,corp)
+function calc_percentage(phrase,total_words,corp)
 {
-    
+   
+   //var word_find = /\bword+/ig;
+   //var phrase_count = corp.match(word_find);
+    //   if you need to match the WHOLE word /\bst\w*/ig;
+    //this matches the beggining of the phrase only
+   var first = "\\" + "b" + phrase + "+" ;
+   var word_find = new RegExp(first , "ig");
+   var phrase_count = corp.match(word_find);
+   var phrase_count = phrase_count.length;
+   console.log(phrase_count);
+   var percentage = phrase_count/total_words;
+   console.log(percentage);
+   
 }
         
         
@@ -203,24 +212,4 @@ function generate_graphs(x1, y1, x2, y2, x3, y3)
     //
             
 }
-
-
-
-    //var canvas = document.getElementById("graph1");
-    //var con = canvas.getContext("2d");
-    //con.fillStyle = "rgba(209, 16, 57, 1)";
-    //con.fillRect(0,0,145,73);
-    ////^authleft
-    //con.fillStyle = "rgba(34, 34, 158, 1)";
-    //con.fillRect (145, 0, 145, 73);
-    ////auth right
-    //con.fillStyle = "rgba(226, 144, 18, 1)";
-    //con.fillRect (0, 73, 145, 73);
-    ////lib left
-    //con.fillStyle = "rgba(12, 149, 108, 1)";
-    //con.fillRect (145, 73, 145, 73);
-    ////lib right
-    //con.fillStyle = 'white';
-    //con.fillRect(0,0, 10,5);
-    //con.fill();
 
