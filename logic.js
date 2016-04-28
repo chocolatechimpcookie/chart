@@ -90,12 +90,7 @@ function comparisons(corpus)
 		quad_y=quad_y+1; 
 	}
 	
-	if (calc_percentage("ma", total_words, corpus) > 0.252257) 
-	{
-		quad_total_cond = quad_total_cond + 1;
-		quad_x = quad_x+1;
-		quad_y=quad_y+1; 
-	}
+
 	
 	if (calc_percentage("bad", total_words, corpus) > 0.244377) 
 	{
@@ -349,12 +344,6 @@ function comparisons(corpus)
 		quad_y=quad_y+1; 
 	}
 	
-	if (calc_percentage("1990", total_words, corpus) > 0) 
-	{
-		quad_total_cond = quad_total_cond + 1;
-		quad_x = quad_x-1;
-		quad_y=quad_y+1; 
-	}
 	
 	if (calc_percentage("clean", total_words, corpus) > 1.273548) 
 	{
@@ -438,13 +427,6 @@ function comparisons(corpus)
 	
 	
 	
-	if (calc_percentage("tr", total_words, corpus) > 1.377043) 
-	{
-		quad_total_cond = quad_total_cond + 1;
-		quad_x = quad_x+1;
-		quad_y=quad_y-1;
-	}
-	
 	if (calc_percentage("reserv", total_words, corpus) > 1.609765) 
 	{
 		quad_total_cond = quad_total_cond + 1;
@@ -480,12 +462,6 @@ function comparisons(corpus)
 		axis_total_cond = axis_total_cond + 1;
 	} 
 	
-	if ( calc_percentage("gu", total_words, corpus) <= 0.505881)
-	{
-		x_econ_cond = x_econ_cond-1;
-		total_x_cond = total_x_cond + 1;
-		axis_total_cond = axis_total_cond +1;
-	} 
 	
 	if ( calc_percentage("glob", total_words, corpus) <= 0.122952)
 	{
@@ -1173,21 +1149,6 @@ function comparisons(corpus)
 	}
 	
 	
-	if ( calc_percentage("ri", total_words, corpus) > 0.146887)
-	{
-		y_auth_cond = y_auth_cond+1;
-		total_y_cond = total_y_cond + 1;
-		axis_total_cond = axis_total_cond + 1; 
-	}
-	
-	
-	if ( calc_percentage("mon", total_words, corpus) > 0.121608)
-	{
-		y_auth_cond = y_auth_cond+1;
-		total_y_cond = total_y_cond + 1;
-		axis_total_cond = axis_total_cond + 1; 
-	}
-	
 	
 	if ( calc_percentage("mad", total_words, corpus) > 0.128315)
 	{
@@ -1401,6 +1362,14 @@ function comparisons(corpus)
     {
         quad_perc_y = quad_y/quad_total_cond;
     }
+    
+    console.log("Axis A X:" + axis_a_x + " Y: " + axis_a_y
+                + " Axis B X: " + axis_b_x + " Y: " + axis_b_y
+                + " Quad X: " + quad_perc_x + " Y: " + quad_perc_y);
+    
+        console.log("Axis A X:" + gen_x(axis_a_x) + " Y: " + gen_y(axis_a_y)
+                + " Axis B X: " + gen_x(axis_b_x) + " Y: " + gen_y(axis_b_y)
+                + " Quad X: " + gen_x(quad_perc_x) + " Y: " + gen_y(quad_perc_y));
     
 //    need to make sure that there are no divide by zeros
 //at the end I will pass the percentages of the three graphs
