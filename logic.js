@@ -16,7 +16,14 @@ function runProgram()
         read.onload = function(e)
         {
             new_string = e.target.result;
-            comparisons(new_string);
+            //comparisons(new_string);
+            //generate_graphs(
+            //    gen_x(0.5), gen_y(0.5),
+            //    gen_x(-0.5), gen_y(0.5),
+            //    gen_x(1), gen_y(1)
+            //    );
+            
+//            test, remember to comment out comparisons
         }
         
     }
@@ -57,16 +64,14 @@ function comparisons(corpus)
     
 
     
-        if (calc_percentage("pizza", total_words, corpus) > 1.703037) 
-	{
-		quad_total_cond++;
-		quad_x--;
-		quad_y--;
-	}
-    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);
-
-    
-        console.log("Conditions are over");    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);    console.log("x_econ_cond " + x_econ_cond + " y_auth_cond " + y_auth_cond);    
+//    if (calc_percentage("pizza", total_words, corpus) > 1.703037) 
+//	{
+//		quad_total_cond++;
+//		quad_x--;
+//		quad_y--;
+//	}
+//    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);
+//    console.log("Conditions are over");    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);    console.log("x_econ_cond " + x_econ_cond + " y_auth_cond " + y_auth_cond);    
 
     
     if (calc_percentage("fed", total_words, corpus) <= 1.703037) 
