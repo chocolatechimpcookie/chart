@@ -1537,8 +1537,8 @@ function comparisons(corpus)
     }
 
 
-    var quad_perc_x == 0;
-    var quad_perc_y == 0;
+    var quad_perc_x = 0;
+    var quad_perc_y = 0;
     
     if (quad_x !== 0)
     {
