@@ -1,4 +1,4 @@
-document.getElementById("start").onclick = function() {runProgram()};
+document.getElementById("start").onclick = function() {runProgram();};
 
 function runProgram()
 {
@@ -16,21 +16,24 @@ function runProgram()
         read.onload = function(e)
         {
             new_string = e.target.result;
-            //comparisons(new_string);
+            comparisons(new_string);
+			
+			
+			            
+//            test, remember to comment out comparisons
             //generate_graphs(
             //    gen_x(0.5), gen_y(0.5),
             //    gen_x(-0.5), gen_y(0.5),
             //    gen_x(1), gen_y(1)
             //    );
-            
-//            test, remember to comment out comparisons
-        }
+
+        };
         
     }
 
     else
     {
-        alert("File APIs are not supported on this browser and the application will now halt.")
+        alert("This browser does not support this app, please try a different one.");
     }
     
     
@@ -41,7 +44,7 @@ function comparisons(corpus)
 {
     //console.log(corpus);
     var total_words = /\s+/gi;
-    var total_words = corpus.trim().replace(total_words, ' ').split(' ').length;
+    total_words = corpus.trim().replace(total_words, ' ').split(' ').length;
     // the reg ex looks for all the white space
     //    .trim() takes out all excess white space (not regular spaces),
     //replace() parameter whitespaces with parameter two
@@ -82,14 +85,6 @@ function comparisons(corpus)
 	}
     
 
-	
-    console.log("Conditions are over");    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);    console.log("x_econ_cond " + x_econ_cond + " y_auth_cond " + y_auth_cond);    
-    if (calc_percentage("feder", total_words, corpus) <= 1.243849) 
-	{
-		quad_total_cond = quad_total_cond + 1;
-		quad_x = quad_x+1;
-		quad_y=quad_y+1; 
-	}
 	
     console.log("Conditions are over");    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);    console.log("x_econ_cond " + x_econ_cond + " y_auth_cond " + y_auth_cond);    
     if (calc_percentage("governm", total_words, corpus) <= 0.571843) 
@@ -1497,14 +1492,14 @@ function comparisons(corpus)
 
 ////////////////////////////////////////////////////////////////////////////////
 //test
-	    console.log("Conditions are over");    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);    console.log("x_econ_cond " + x_econ_cond + " y_auth_cond " + y_auth_cond);          
-    if (calc_percentage("pizza", total_words, corpus) > 0.349027)
-	{
-        x_econ_cond = x_econ_cond-1;
-		y_auth_cond = y_auth_cond-1;
-		total_y_cond = total_y_cond + 1;
-		axis_total_cond = axis_total_cond +1; 
-	}
+//	    console.log("Conditions are over");    console.log("quad_total " + quad_total_cond + " quad x " + quad_x + " quad y " + quad_y);    console.log("x_econ_cond " + x_econ_cond + " y_auth_cond " + y_auth_cond);          
+//    if (calc_percentage("pizza", total_words, corpus) > 0.349027)
+//	{
+//        x_econ_cond = x_econ_cond-1;
+//		y_auth_cond = y_auth_cond-1;
+//		total_y_cond = total_y_cond + 1;
+//		axis_total_cond = axis_total_cond +1; 
+//	}
     
     
     
@@ -1529,28 +1524,28 @@ function comparisons(corpus)
     var axis_b_x = 0;
     var axis_b_y = 0;
     
-    if (x_econ_cond != 0)
+    if (x_econ_cond !== 0)
     {
         axis_a_x = x_econ_cond/axis_total_cond;
         axis_b_x = x_econ_cond/total_x_cond;
     }
     
-    if (y_auth_cond != 0)
+    if (y_auth_cond !== 0)
     {
         axis_a_y = y_auth_cond/axis_total_cond;
         axis_b_y = y_auth_cond/total_y_cond;
     }
 
 
-    var quad_perc_x = 0;
-    var quad_perc_y = 0;
+    var quad_perc_x == 0;
+    var quad_perc_y == 0;
     
-    if (quad_x != 0)
+    if (quad_x !== 0)
     {
         quad_perc_x = quad_x/quad_total_cond;
     }
 
-    if (quad_y != 0)
+    if (quad_y !== 0)
     {
         quad_perc_y = quad_y/quad_total_cond;
     }
@@ -1615,16 +1610,17 @@ function calc_percentage(phrase, total, corp)
     var first = "\\" + "b" + phrase + "+" ;
     var word_find = new RegExp(first , "ig");
     var phrase_count = corp.match(word_find);
-    if (phrase_count != null)
+	var percentage;
+    if (phrase_count !== null)
     {
-        var phrase_count = phrase_count.length;
+        phrase_count = phrase_count.length;
         console.log(phrase + " was found " + phrase_count);
         console.log("total" + phrase_count);
-        var percentage = phrase_count/total;
+        percentage = phrase_count/total;
     }
     else
     {
-        var percentage = 0;
+        percentage = 0;
         console.log(phrase + " was not found");
     }
     percentage = percentage * 100;
@@ -1635,21 +1631,21 @@ function calc_percentage(phrase, total, corp)
         
 function gen_x(x_percent)
 {
-
+	var x;
     if (x_percent === 0)
     {
-        var x = 140;
+        x = 140;
     }
     
     else if (x_percent > 0)
     {
-        var x = (x_percent * 140) + 140;
+        x = (x_percent * 140) + 140;
     //    right
     }
     
     else
     {
-        var x = 140 + (x_percent * 140);
+        x = 140 + (x_percent * 140);
     //    left
     // from negative # to 139-0, 0 is most left
     // 
@@ -1672,16 +1668,16 @@ function gen_x(x_percent)
 
 function gen_y(y_percent)
 {
-    
+    var y;
     if (y_percent === 0)
     {
-        var y = 71;
+        y = 71;
         //mid y
     }
     
     else if (y_percent > 0)
     {
-        var y = 71 - (y_percent * 71);
+        y = 71 - (y_percent * 71);
     //    top
     // most authoritarian is 0, center is 71
     }
@@ -1689,7 +1685,7 @@ function gen_y(y_percent)
 
     else
     {
-        var y = 71 - (y_percent * 70);
+        y = 71 - (y_percent * 70);
     //    libertar
     //  negative number to 72-141, subtracting by negative,higher numbers == more lib
 
@@ -1737,8 +1733,8 @@ function generate_graphs(x1, y1, x2, y2, x3, y3)
 
 
     
-    var canvas = document.getElementById("graph2");
-    var con = canvas.getContext("2d");
+    canvas = document.getElementById("graph2");
+    con = canvas.getContext("2d");
     con.fillStyle = "rgba(209, 16, 57, 1)";
     con.fillRect(0,0,145,73);
     //^authleft
@@ -1758,8 +1754,8 @@ function generate_graphs(x1, y1, x2, y2, x3, y3)
     
 
     
-    var canvas = document.getElementById("graph3");
-    var con = canvas.getContext("2d");
+    canvas = document.getElementById("graph3");
+    con = canvas.getContext("2d");
     con.fillStyle = "rgba(209, 16, 57, 1)";
     con.fillRect(0,0,145,73);
     //^authleft
